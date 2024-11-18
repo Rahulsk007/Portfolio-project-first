@@ -15,6 +15,27 @@
     box-sizing: border-box;
     
 }
+#whatsapp-btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    color: #25d366;
+    
+    width: 70px;
+    height: 70px;
+    
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#whatsapp-btn:hover{
+    transform: scale(1.1);
+}
+
+#whatsapp-btn:focus{
+    outline: none;
+}
 
 .section__container{
     max-width: var(--max-width);
